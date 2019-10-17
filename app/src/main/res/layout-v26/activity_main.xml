@@ -42,10 +42,13 @@
         android:layout_height="48dp"
         android:layout_marginTop="64dp"
         android:background="@drawable/button_input"
+        android:drawableEnd="@drawable/ic_next"
         android:text="@string/text_profile_button_send"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        android:paddingStart="25dp"
+        android:paddingEnd="10dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
